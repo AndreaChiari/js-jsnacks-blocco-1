@@ -8,9 +8,9 @@ for (i=0; i < 10; i++){
     const numbers = prompt("inserisci un numero");
     console.log(numbers);
 
-   if(numbers !== isNaN){
+   if(isNaN(numbers)){
     alert('You must use a number!');
-}
+    }
 
 
    
