@@ -4,7 +4,7 @@
 */
 
 
-const result = document.getElementById('sum');
+let result = document.getElementById('sum');
 let total = 0;
 for (i=0; i < 3; i++){
     const numbers = parseInt(prompt("inserisci un numero"));
