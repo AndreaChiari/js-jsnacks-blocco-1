@@ -6,7 +6,7 @@
 
 let result = document.getElementById('sum');
 let total = 0;
-for (i=0; i < 3; i++){
+for (i=0; i < 10; i++){
     const numbers = parseInt(prompt("inserisci un numero"));
     console.log(typeof numbers);
     
